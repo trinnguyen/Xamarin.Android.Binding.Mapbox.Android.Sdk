@@ -55,9 +55,6 @@
     <Reference Include="GoogleGson">
       <HintPath>..\packages\GoogleGson.2.8.1\lib\MonoAndroid\GoogleGson.dll</HintPath>
     </Reference>
-    <Reference Include="Mapbox.Sdk.Geojson">
-      <HintPath>..\packages\Kwon.Mapbox.Sdk.Geojson.3.3.0.1\lib\monoandroid81\Mapbox.Sdk.Geojson.dll</HintPath>
-    </Reference>
     <Reference Include="Java.Interop" />
     <Reference Include="Squareup.OkHttp3.Logging-interceptor">
       <HintPath>..\packages\Kwon.Squareup.OkHttp3.Logging-interceptor.3.9.1.1\lib\monoandroid81\Squareup.OkHttp3.Logging-interceptor.dll</HintPath>
@@ -76,9 +73,6 @@
     </Reference>
     <Reference Include="Mapbox.Sdk.Core">
       <HintPath>..\packages\Kwon.Mapbox.Sdk.Core.3.3.0.1\lib\monoandroid81\Mapbox.Sdk.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.Sdk.Services">
-      <HintPath>..\packages\Kwon.Mapbox.Sdk.Services.3.3.0.1\lib\monoandroid81\Mapbox.Sdk.Services.dll</HintPath>
     </Reference>
     <Reference Include="Timber">
       <HintPath>..\packages\Xamarin.JakeWharton.Timber.4.6.0\lib\MonoAndroid10\Timber.dll</HintPath>
@@ -127,6 +121,15 @@
     </Reference>
     <Reference Include="Mapbox.Android.Telemetry">
       <HintPath>..\packages\Kwon.Mapbox.Android.Telemetry.3.1.3.1\lib\monoandroid81\Mapbox.Android.Telemetry.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.Sdk.Geojson">
+      <HintPath>..\packages\Kwon.Mapbox.Sdk.Geojson.3.3.0.2\lib\monoandroid81\Mapbox.Sdk.Geojson.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.Sdk.Services">
+      <HintPath>..\packages\Kwon.Mapbox.Sdk.Services.3.3.0.2\lib\monoandroid81\Mapbox.Sdk.Services.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
