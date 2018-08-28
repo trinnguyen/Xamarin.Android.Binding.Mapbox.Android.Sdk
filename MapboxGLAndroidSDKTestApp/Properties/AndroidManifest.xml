@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.mapbox.mapboxsdk.testapp">
-    <uses-sdk android:minSdkVersion="16" />
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="27" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application android:allowBackup="true" android:label="@string/app_name" android:theme="@style/AppTheme" android:roundIcon="@drawable/ic_launcher_round" android:supportsRtl="true">
         <activity android:name="com.mapbox.mapboxsdk.testapp.Activities.Annotation.AnimatedSymbolLayerActivity" android:description="@string/description_animated_symbollayer" android:label="@string/activity_animated_symbollayer">
             <meta-data android:name="@string/category" android:value="@string/category_style" />
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.mapbox.mapboxsdk.testapp.Activities.FeatureOverviewActivity" />
+        </activity>
+        <activity android:name="com.mapbox.mapboxsdk.testapp.Activities.Annotation.BulkMarkerActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:description="@string/description_add_bulk_markers" android:label="@string/activity_add_bulk_markers">
+            <meta-data android:name="@string/category" android:value="@string/category_annotation" />
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.mapbox.mapboxsdk.testapp.Activities.FeatureOverviewActivity" />
         </activity>
     </application>
